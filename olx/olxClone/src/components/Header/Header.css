@@ -1,0 +1,21 @@
+.HeaderFirst{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Sub-header img{
+    width: 11rem;
+    padding: 0px 40px;
+}
+
+.Sub-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.Sub-navbar .login{
+    margin-right: 2rem;
+}

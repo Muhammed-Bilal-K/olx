@@ -1,0 +1,48 @@
+.centerDiv {
+    border: 1px solid black;
+    width: max-content;
+    padding: 50px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+}
+
+.input {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline-color: transparent;
+    width: 20rem;
+    border-radius: 23px;
+    padding: 8px;
+}
+
+.uploadBtn {
+    margin-top: 30px;
+    width: 50%;
+    height: 48px;
+    background-color: #002f34;
+    color: whitesmoke;
+    font-weight: 900;
+    border-radius: 30px;
+}
+
+.uploadBtn:hover {
+    background-color: white;
+    color: #002f34;
+    border: 2px solid #002f34;
+}
+
+.FirstDiv{
+    margin-right: 25rem;
+    text-align: center;
+    background-color: #41327ad4;
+    padding: 25px 0px;
+    margin-top: 5rem;
+    margin-left: 25rem;
+    color: white;
+    font-size: 18px;
+    border-radius: 40px;
+}

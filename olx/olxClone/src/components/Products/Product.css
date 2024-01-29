@@ -1,0 +1,33 @@
+.Product_list{
+    color: white;
+    font-family: monospace;
+    height: 80vh;
+}
+
+.Product_list .card{
+    border-radius: 30px;
+    line-height: 5px;
+}
+.Product_list .card h5{
+    letter-spacing: 1px;
+    font-size: 31px;
+    font-weight: 900;
+}
+.Product_list .card img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    height: 14.5rem;
+}
+.Product_list .card .Price_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Product_list .card .Price_data .Price_Sub_Place{
+    display: flex;
+    gap: 20px;
+}
+.Product_list .card .Price_data svg{
+    margin: 0 10px;
+}

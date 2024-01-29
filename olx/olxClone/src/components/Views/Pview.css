@@ -1,0 +1,56 @@
+.viewParentDiv {
+    padding-top: 4em;
+    display: flex;
+    color: white;
+}
+
+.viewParentDiv .imageShowDiv {
+    padding: 16px;
+    width: 65vw;
+}
+
+.viewParentDiv .imageShowDiv img {
+    width: 60vw;
+    height: 70vh;
+    border-radius: 40px;
+    box-shadow: 12px 8px 20px 5px #332c34;
+}
+
+.viewParentDiv .rightSection {
+    padding: 16px;
+    margin-top: 3em;
+    width: 30vw;
+}
+
+.viewParentDiv .rightSection .productDetails :first-child {
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #64efff;
+    font-size: 34px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.viewParentDiv .rightSection .productDetails {
+    border: 3px solid rgb(34, 82, 131);
+    padding: 6px;
+    border-radius: 6px;
+    margin-bottom: 2em;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.viewParentDiv .rightSection .contactDetails {
+    border: 3px solid rgb(33, 61, 98);
+    padding: 6px;
+    border-radius: 16px;
+}
+
+.viewParentDiv .rightSection .contactDetails :first-child {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #d4d8e7;
+    font-weight: 400;
+    padding: 0;
+}
