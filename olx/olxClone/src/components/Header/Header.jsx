@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import './Header.css'
 import logoOlx from '../../assets/olx-logo-0.webp'
 import { AppContext, AuthContext } from '../../Context/AppContext'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 function Header() {
     const { user } = useContext(AuthContext)
@@ -21,12 +21,12 @@ function Header() {
             </div>
             <div className='Sub-navbar'>
                 <div className='login'>
-                    <span>{user ? `Welcome ${user.displayName}` : 'Login'}</span>
+                    <span style={{marginRight: "15px"}}>{user ? `Welcome ${user.displayName}` : <Link className='loginColor' to='/login'> Login </Link>}</span>
                     {user && <span onClick={HandleLogoOut}>LogOut</span>}
                     <hr />
                 </div>
                 <div>
-                    <p>SELL +</p>
+                    <p>{user ? <Link className='sellColor' to='/create'>SELL +</Link>: ''}</p>
                 </div>
             </div>
         </div>

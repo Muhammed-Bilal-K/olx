@@ -49,6 +49,9 @@ function Pview() {
                     <p>{userDetails ? userDetails.name : ''}</p>
                     <p>{userDetails ? userDetails.mobile : ''}</p>
                 </div>
+                <div className='ContactNow'>
+                    <h2>Contact Now!</h2>
+                </div>
             </div>
         </div>
     )

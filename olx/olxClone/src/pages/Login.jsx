@@ -6,14 +6,14 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } f
 import { AppContext } from '../Context/AppContext';
 import { useNavigate } from 'react-router-dom';
 
-function Login() {
+function Login({pass}) {
     const [username, setUsername] = useState('')
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
     const [password, setPassword] = useState('')
     const { firestore, auth , updateProfile } = useContext(AppContext)
     let navigate = useNavigate()
-
+    
     const HandleRequest = async (e) => {
         e.preventDefault();
         await createUserWithEmailAndPassword(auth, email, password)
@@ -34,6 +34,7 @@ function Login() {
                 console.error('Error creating user:', error.message);
             });
     }
+
 
     return (
         <div className='Login_Page'>
@@ -60,4 +61,4 @@ function Login() {
     )
 }
 
-export default Login
+export default React.memo(Login);

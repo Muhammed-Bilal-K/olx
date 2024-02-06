@@ -54,3 +54,10 @@
     font-weight: 400;
     padding: 0;
 }
+
+.ContactNow{
+    border-radius: 45px;
+    background-color: darkslateblue;
+    padding: 2px 35px;
+    margin: 20px 78px;
+}

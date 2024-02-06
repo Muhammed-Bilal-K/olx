@@ -8,9 +8,7 @@ function About() {
   let navigate = useNavigate()
   const { data } = useContext(AppContext)
   return (
-    
     <>
-
       <h1>name : {data}</h1>
 
         <Link to='/'> Home</Link>

@@ -27,7 +27,7 @@ function App() {
     <Post>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/signup' element={<SignUp />} />
+        <Route path='/signup' element={<SignUp pass={value} />} />
         <Route path='/login' element={<Login />} />
         <Route path='/create' element={<Create />} />
         <Route path='/view' element={<Pview />} />
